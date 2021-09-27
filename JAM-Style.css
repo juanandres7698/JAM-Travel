@@ -1,0 +1,101 @@
+header{
+    text-align: center;
+}
+article {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float:right
+}
+
+h1 {
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+}
+#Intro-Tags {
+    list-style: none;
+    list-style-type: disc;
+    font-family: Roboto Condensed,Arial Narrow,arial,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+#Intro-Tags a:link {
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
+#Intro-Tags a:hover{
+    color:red
+}
+#Intro-Tags a:visited{
+    color:red
+}
+#Intro-Tags li {
+    display: inline;
+}
+
+article p {
+    font-family: "PT Serif",georgia,times,serif;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 17px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "PT Serif",georgia,times,serif;
+}
+
+.section-header {
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    font-size: 24px;
+    letter-spacing: .5px;
+    color: rgba(0,0,0,.95);
+    font-weight: 700;
+}
+
+.other-article {
+    font-weight: 700;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+.other-article a:link {
+    color: red;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 500;
+}
+.other-article a:hover{
+    color:red
+}
+.other-article a:visited{
+    color:red
+}
+.RS-Tags {
+    font-family: Roboto Condensed,Arial Narrow,arial,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.RS-Tags a:link {
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
+.RS-Tags a:hover{
+    color:red
+}
+.RS-Tags a:visited{
+    color:red
+}
