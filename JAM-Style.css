@@ -25,25 +25,73 @@ figcaption {
     font-size: 12px;
 }
 article {
-    width: 70%;
+    width: 65%;
     float: left;
-    padding-left: 24px;
-    padding-right: 24px;
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     box-sizing: border-box;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+article p a:link {
+    color: red;
+    text-decoration: none;
+    font-weight: 500;
+}
+article p a:hover{
+    color:red
+}
+article p a:visited{
+    color:red
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
 }
 
 aside {
-    bottom: 0;
-    right: 0;
-    width: 30%;
+    width: 35%;
     float:right;
-    position: fixed;
 }
 
+footer {
+    margin-top: 36px;
+    width: 70%;
+    float: left;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+footer .subs1text {
+    margin: 0 20px;
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.36;
+    letter-spacing: -.17px;
+    color: rgba(0,0,0,.95);
+}
+
+footer .subs2text {
+    margin: 0 20px;
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.36;
+    letter-spacing: -.17px;
+    text-transform: uppercase;
+    color: red;
+}
+
+footer .subscription-button a {
+    text-decoration: none;
+}
 h1 {
     font-family: Zilla Slab,Lora,georgia,times,serif;
     font-weight: 500;
@@ -55,6 +103,8 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin: .67em 0;
+    width: 60%;
+    height: 250px;
     box-sizing: border-box;
 }
 #Intro-Tags {
@@ -64,6 +114,7 @@ h1 {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: .5px;
+    width: 60%;
     text-transform: uppercase;
 }
 #Intro-Tags a:link {
@@ -79,6 +130,7 @@ h1 {
 }
 #Intro-Tags li {
     display: inline;
+    text-align: -webkit-match-parent
 }
 
 article p {
@@ -127,6 +179,7 @@ article p {
     line-height: 16px;
     letter-spacing: .5px;
     text-transform: uppercase;
+    border-top: 1px solid #d7d7d9;
 }
 .RS-Tags a:link {
     color: red;
@@ -139,7 +192,6 @@ article p {
 .RS-Tags a:visited{
     color:red
 }
-
 .RS-H {
     text-align: center;
     text-transform: uppercase;
@@ -156,7 +208,9 @@ article p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
+article img {
+    width: 800px;
+}
 .First-Character {
     font-family: Zilla Slab,Lora,georgia,times,serif;
     font-size: 48px;
@@ -168,4 +222,266 @@ article p {
     border-left: 2px solid #e90606;
     box-sizing: border-box;
 }
+.Author-Date {
+    text-align: left;
+    color: #8b8d91;
+    text-transform: uppercase;
+    line-height: 1.85;
+    letter-spacing: .5px;
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    font-size: 12px;
+    display: block;
+    padding: 0;
+}
+.topic-h {
+    font-family: Roboto Condensed,Arial Narrow,arial,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.95);
+}
+.topic-list {
+    list-style: none;
+    list-style-type: disc;
+    font-family: Roboto Condensed,Arial Narrow,arial,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.95);
+}
+.topic-list a:link {
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
+.topic-list a:hover{
+    color:red
+}
+.topic-list a:visited{
+    color:red
+}
+.topic-list li {
+    display: inline;
+}
 
+.title-container {
+    text-align: center;
+    width: 100%;
+}
+.Author-Date a:link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: red;
+}
+footer .RedCaption {
+    color: #e90606;
+    font-size: 22px!important;
+    font-weight: 700;
+    box-sizing: border-box;
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    letter-spacing: .5px;
+    width: 30%;
+}
+
+footer .LB {
+    display: inline;
+    border-top: 1px solid #d7d7d9;
+}
+
+footer .LB-Span {
+    width: 40%;
+}
+
+footer .BlackCaption {
+    color: rgba(0,0,0,.95);
+    font-size: 22px!important;
+    font-weight: 500;
+    box-sizing: border-box;
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    letter-spacing: .5px;
+    width: 30%;
+}
+
+.email-input {
+    color: #8b8d91;
+    font-size: 16px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #000001;
+    background-color: #f0f1f2;
+    padding: 8px;
+    height: 39px;
+    line-height: normal;
+    font: inherit;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Newsletter-button {
+    margin: 0 0 0 5px;
+    width: 150px;
+    background: #e90606;
+    color: #fff;
+    border: 2px solid #e90606;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 10px 12px;
+    transition: all .1s ease-in-out;
+    letter-spacing: 1.21px;
+    text-transform: uppercase;
+    font: inherit;
+    box-sizing: border-box;    
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+}
+
+.ToS {
+    font-size: 12px;
+    margin: 20px auto 0;
+    width: calc(100% - 20px);
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: block;
+    letter-spacing: .5px;
+}
+
+.ToS a:link {
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
+.ToS a:hover{
+    color:red
+}
+.ToS a:visited{
+    color:red
+}
+.w-mail {
+    font-family: Roboto Condensed,Arial Narrow,arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 640px;
+    width: 100%;
+    color: rgba(0,0,0,.95);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    line-height: 28px;
+    margin-top: 28px;
+}
+.w-mail a:link {
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
+.w-mail a:hover{
+    color:red
+}
+.w-mail a:visited{
+    color:red
+}
+.Extra-Articles {
+    font-size: 20px;
+    width: auto!important;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: Roboto Condensed,Arial Narrow,arial,sans-serif;
+    font-weight: 700;
+    color: rgba(0,0,0,.95);
+    flex-basis: 100%;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+}
+
+.otherpic {
+    width: 60%;
+    height: auto;
+}
+
+.otherpic a:link{
+    text-decoration: none;
+
+}
+.otherart-l a:link {
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    text-transform: uppercase;
+}
+.otherart-l a:hover{
+    color:red
+}
+.otherart-l a:visited{
+    color:red
+}
+
+.otherart-h a:link{
+    font-weight: 400;
+    margin-bottom: 4px;
+    text-decoration: none;
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    line-height: 1.38;
+    font-size: 24px;
+    letter-spacing: .5px;
+    box-sizing: border-box;
+}
+.otherart-s {
+    display: block;
+    box-sizing: border-box;
+    letter-spacing: .51px;
+    line-height: 1.6;
+    font-family: "PT Serif",georgia,times,serif;
+    font-size: 16px;
+    color: rgba(0,0,0,.95);
+    -webkit-text-size-adjust: 100%;
+}
+
+aside .RS-Header {
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: rgba(0,0,0,.95);
+    text-decoration: none;
+}
+aside a {
+    text-decoration: none;
+}
+
+.subt {
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: Zilla Slab,Lora,georgia,times,serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: rgba(0,0,0,.95);
+}
