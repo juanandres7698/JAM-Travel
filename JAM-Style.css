@@ -107,7 +107,7 @@ h1 {
     height: 250px;
     box-sizing: border-box;
 }
-#Intro-Tags {
+.Intro-Tags {
     list-style: none;
     list-style-type: disc;
     font-family: Roboto Condensed,Arial Narrow,arial,sans-serif;
@@ -117,18 +117,18 @@ h1 {
     width: 60%;
     text-transform: uppercase;
 }
-#Intro-Tags a:link {
+.Intro-Tags a:link {
     color: red;
     text-decoration: none;
     font-weight: 700;
 }
-#Intro-Tags a:hover{
+.Intro-Tags a:hover{
     color:red
 }
-#Intro-Tags a:visited{
+.Intro-Tags a:visited{
     color:red
 }
-#Intro-Tags li {
+.Intro-Tags li {
     display: inline;
     text-align: -webkit-match-parent
 }
